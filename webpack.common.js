@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 module.exports = {
 	entry: path.resolve(__dirname, './src/index.js'),
@@ -36,7 +35,5 @@ module.exports = {
 			title: 'Webpack demo',
 			template: path.resolve(__dirname, './public/index.html'),
 		}),
-
-		new ReactRefreshWebpackPlugin(),
 	],
 };
