@@ -1,5 +1,5 @@
 module.exports = {
-	plugins: ['babel-plugin-styled-components'],
+	plugins: ['babel-plugin-styled-components', 'react-refresh/babel'],
 	presets: [
 		[
 			'@babel/preset-env',
